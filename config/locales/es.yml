@@ -20,7 +20,7 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 es:
-  app-title: "Waze México - Panel de Control"
+  app-title: "Waze Switzerland - Panel de Control"
   blocked-places: "Lugares bloqueados por el staff"
   city: "Ciudad"
   comment: "comentario"
@@ -35,11 +35,10 @@ es:
       url: "http://www.waze.com"
     forum:
       text: "Foro"
-      url: "https://www.waze.com/forum/viewforum.php?f=152"
+      url: "https://www.waze.com/forum/viewforum.php?f=63"
     wiki:
-      text: "Wiki"
-      url: "https://wiki.waze.com/wiki/M%C3%A9xico"
-
+      text: "Wazeopedia"
+      url: "https://wazeopedia.waze.com/wiki/Switzerland"
   mp:
     type_1: "Se detecta segmento irregular."
     type_2: "Se detecta segmento sin conectar"

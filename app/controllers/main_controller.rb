@@ -16,7 +16,7 @@ class MainController < ApplicationController
   end
 
   def state
-    @state= State.find_by abbreviation: params['id']
+    @state= State.find(params['id'])
     @upd_ur = Update.find('ur')
     @upd_pu = Update.find('pu')
     @nav = [{ @state.name => "#"},{ t('nav-first-page') => '/'}]
