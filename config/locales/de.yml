@@ -20,7 +20,7 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 de:
-  app-title: "Waze Swizterland Control Panel"
+  app-title: "Waze Switzerland Control Panel"
   blocked-places: "Staff-blocked places"
   city: "City"
   comment: "comment"
@@ -29,6 +29,16 @@ de:
   date-format: "%d.%m.%Y %H:%M %Z"
   editor: "Editor"
   last-comment: "Last comment"
+  link:
+    waze:
+      text: "Waze"
+      url: "http://www.waze.com"
+    forum:
+      text: "Forum"
+      url: "https://www.waze.com/forum/viewforum.php?f=63"
+    wiki:
+      text: "Wazeopedia"
+      url: "https://wazeopedia.waze.com/wiki/Switzerland"
   mp:
     type_1: "Crooked segment detected"
     type_2: "Floating segment detected"
@@ -76,7 +86,7 @@ de:
       flag: "Flagged place"
       unknown: "Unknown"
   solution: "Solution"
-  state: "State"
+  state: "Canton"
   updated-at: "Updated at"
   ur:
     type_6: "Incorrect turn"
