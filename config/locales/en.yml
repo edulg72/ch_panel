@@ -76,6 +76,7 @@ en:
   mp-total: "Total"
   nav-first-page: "Home"
   noname: "No name"
+  opened: "Opened"
   place-name: "Place name"
   pu:
     image: "New picture"
@@ -87,6 +88,7 @@ en:
       unknown: "Unknown"
   solution: "Solution"
   state: "Canton"
+  unnapproved: "Unnapproved"
   updated-at: "Updated at"
   ur:
     type_6: "Incorrect turn"
