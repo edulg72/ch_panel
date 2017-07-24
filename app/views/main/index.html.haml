@@ -32,7 +32,7 @@
             %tbody
               %tr
                 %td
-                  %a{:href => '/mps'} Abiertas
+                  %a{:href => '/mps'}= t('opened')
                 %td.text-right= @mp.count
             %tfoot
               %tr
@@ -46,7 +46,7 @@
             %tbody
               %tr
                 %td
-                  %a{:href => '/pus'} Pendentes
+                  %a{:href => '/pus'}= t('unnapproved')
                 %td.text-right= @pu.editable.count
               %tr
                 %td

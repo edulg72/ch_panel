@@ -1,9 +1,9 @@
 class PU < ActiveRecord::Base
   self.table_name = 'vw_pu'
 
-  belongs_to :city, foreign_key: 'city_id'
+  belongs_to :state, foreign_key: 'state_id'
 
-  scope :national, -> { where("city_id is not null") }
+  scope :national, -> { where("state_id is not null") }
   scope :editable, -> { where("not staff")}
   scope :blocked, -> { where("staff")}
 end
