@@ -9,6 +9,11 @@ psql -h $POSTGRESQL_DB_HOST -d ch_panel -U $POSTGRESQL_DB_USERNAME -c 'delete fr
 ruby scan_PU.rb $1 $2 7.45 47.82 9.7 47.57 0.25
 ruby scan_PU.rb $1 $2 6.7 47.57 9.7 47.32 0.25
 ruby scan_PU.rb $1 $2 6.45 47.32 9.7 47.07 0.25
+
+ruby scan_PU.rb $1 $2 6.2 47.07 10.7 46.82 0.25
+ruby scan_PU.rb $1 $2 5.95 46.82 10.7 46.57 0.25
+ruby scan_PU.rb $1 $2 5.95 46.57 10.7 46.32 0.25
+
 ruby scan_PU.rb $1 $2 5.95 46.32 6.45 46.07 0.25
 ruby scan_PU.rb $1 $2 6.7 46.32 10.2 46.07 0.25
 ruby scan_PU.rb $1 $2 6.7 46.07 8.2 45.82 0.25
