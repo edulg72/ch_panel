@@ -13,6 +13,7 @@ Rails.application.routes.draw do
   get '/staff' => 'main#staff'
   get '/pus' => 'main#pus'
   get '/mps' => 'main#mps'
+  get '/urs' => 'main#urs'
   get '/:id' => 'main#state'
   get '/:action/:id' => 'main'
 

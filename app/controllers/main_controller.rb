@@ -39,4 +39,10 @@ class MainController < ApplicationController
     @upd_mp = Update.find('ur')
     @nav = [{t('mps') => "#"},{ t('nav-first-page') => '/'}]
   end
+
+  def urs
+    @urs = UR.national.open
+    @upd_ur = Update.find('ur')
+    @nav = [{t('urs') => "#"},{ t('nav-first-page') => '/'}]
+  end
 end
