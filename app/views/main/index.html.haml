@@ -12,13 +12,16 @@
           %table.table
             %tbody
               %tr
-                %td= t('ur-without-comments')
+                %td
+                  %a{:href => '/urs'}= t('ur-without-comments')
                 %td.text-right= @ur.open.without_comments.count
               %tr
-                %td= t('ur-with-answer')
+                %td
+                  %a{:href => '/urs'}= t('ur-with-answer')
                 %td.text-right= @ur.open.with_answer.count
               %tr
-                %td= t('ur-awaiting-answer')
+                %td
+                  %a{:href => '/urs'}= t('ur-awaiting-answer')
                 %td.text-right= @ur.open.without_answer.count
             %tfoot
               %tr
